@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(photos/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.frontenddeveloper{
+    font-family: 'TT-Norms-Bold';
+    font-weight: 900;
+    position: relative;
+    padding-top: 150px;
+    text-align: center;
+    color: black;
+}
+.about {
+    font-family: "TT-Norms-Regular";
+    font-weight: 400;
+    color: #807e7e;
+}
+.tutorials {
+    font-family: "TT-Norms-Regular";
+    font-weight: 400;
+    padding-top: 90px;
+    color: #0089fa;
+}
+#logo {
+    font-family: 'TT-Norms-Bold';
+    font-weight: 900;
+    font-size: 25px;
+    color : black;
+}
+#heh1 {
+    font-size: 17px;
+    font-family: "TT-Norms-Regular";
+    color: black;
+}
+#heh2 {
+    font-size: 17px;
+    font-family: "TT-Norms-Regular";
+    color: black;
+}
+#heh3 {
+    font-size: 17px;
+    font-family: "TT-Norms-Regular";
+    color: black;
+}
+.myprojects {
+    font-family: 'TT-Norms-Bold';
+    font-weight: 900;
+    font-size: 35px;
+    position: relative;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.yt {
+    font-size: 30px;
+    padding-top: 20px;
+}
+.ig {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.contact {
+    font-size: 17px;
+    font-family: "TT-Norms-Regular";
+    position: relative;
+    text-align: center;
+    color: #807e7e;
+    padding-top: 2px;
+}
+#logo:hover {
+    color: #0089fa;
+    filter: brightness(100px);
+}
+#heh1:hover {
+    color: #807e7e;
+    font-size: 16px;
+    border-bottom: 2px solid #807e7e;
+    border-radius: 5px;
+}
+#heh2:hover {
+    color: #807e7e;
+    font-size: 16px;
+    border-bottom: 2px solid #807e7e;
+    border-radius: 5px;
+
+}
+#heh3:hover {
+    color: #807e7e;
+    font-size: 16px;
+    border-bottom: 2px solid #807e7e;
+    border-radius: 5px;
+
+}
+.img-thumbnail:hover {
+    background-color: #0089fa;
+}
+
+.yt:hover {
+    color : red;
+    transition: 0.5s ease;
+}
+.ig:hover {
+    color:orange;
+}
+
+#cont {
+    background-color: black;
+    width: 35px;
+    height: 70px;
+    border-radius: 100px;
+    margin-left: 10px;
+    position: relative;
+    top: 40px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 8px 0px;
+}
+#scroller {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#scroller2 {
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: none;
+}
+
+
+
+@media only screen and (max-width:992px){
+    .navbar-nav  li a{
+        text-align: center;
+    }
+}
+
+@font-face {
+    font-family: 'TT-Norms-Bold';
+    src: url(Fonts/TTNorms-Bold.otf);
+}
+@font-face {
+    font-family: 'TT-Norms-Regular';
+    src:url(Fonts/TTNorms-Regular.otf);
+}
